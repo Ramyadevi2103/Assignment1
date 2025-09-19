@@ -2,14 +2,14 @@ import "./index.css"
 
 const UserItem = props => {
     const {userData} = props
-    const {name, email, phone, companyName, website, address} = userData
+    const {name, email, phone, companyName, website, address, username} = userData
 
     return (
         <div className="background-container">  
             <div className="card-container">
                 <div className="image-container">
                     <img 
-                        src="https://avatars.dicebear.com/v2/avataaars/{{username}}.svg?options[mood][]=happy" 
+                        src={`https://avatars.dicebear.com/v2/avataaars/${username}.svg?options[mood][]=happy`}
                         alt={name} 
                         className="image"
                     />

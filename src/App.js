@@ -1,5 +1,3 @@
-import { BrowserRouter, Route, Switch } from 'react-router-dom'
-
 import UsersList from './components/UsersList'
 
 import './App.css'
